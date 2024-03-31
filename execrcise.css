@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(122, 124, 124);
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+}
+.custom-box {
+    border-radius: 10px; /* Memberikan sudut yang bulat */
+    padding: 20px; /* Jarak antara teks dan border kotak */
+    margin: 20px auto; /* Pusatkan kotak dan beri jarak atas bawah */
+    width: 75%; /* Atur lebar kotak */
+    background-color: rgba(34, 28, 28, 0.911); /* Warna latar kotak dengan sedikit transparansi */
+    box-shadow: 0 4px 8px rgba(95, 93, 93, 0.911); /* Tambahkan sedikit bayangan */
+    text-align: center; /* Teks di dalam kotak ditengah-tengahkan */
+}
+
+.table-container {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.table-row {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.table-cell {
+    flex: 1;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+#judul {
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 24px;
+    background-color: rgb(24, 32, 136);
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(63, 52, 68);
+    color: white;
+}
+
+img {
+    width: 120px;
+    height: 150px;
+}
+
+#mtahun, #mnama, #mjumlah {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.left-div {
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+}
+
+.right-div {
+    display: inline-block;
+    vertical-align: top;
+}
